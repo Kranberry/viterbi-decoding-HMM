@@ -1,6 +1,6 @@
 # HMM Gene Sequence Tagger
 
-This project implements a gene sequence tagger, that identifies gene names in  biological context. There is only type of entity here: I-GENE. All other words are tagged as O. 
+This project implements a gene sequence tagger, using a Trigram HMM with Viterbi decoding. It identifies gene names in  biological context. There is only type of entity here: I-GENE. All other words are tagged as O. 
 
 There are a couple of things implemented here -
 1. A baseline tagger, which just selects the tag with maximum emission probability for every word
